@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    padding: 10px;
+    
+    
+    flex-direction: row;
+}
+
+.imgMenu{
+    width: 100px;
+    
+}
+
+ul{
+    position: absolute;
+}
+
+li{
+    margin-top: 10px;
+}
+
+.login{
+    padding: 12px;
+}
+
+body { 
+    font-family: sans-serif; 
+    display: flex; 
+    flex-direction: row;
+    max-width: none;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: inherit;
+    font-family: sans-serif;
+    text-align: justify;
+    justify-content: center;
+}
+
+.flex{
+    font-size: 20px;
+    
+}
+
+.listMenu{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.btnMenu{
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    left: 70rem;
+    flex-direction: row;
+    width: 250px;
+    list-style: none;
+    padding: 10px;
+}
+
+button{
+    background: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 160px;
+    height: 50px;
+}
+
+.eachSide{
+    display: flex; 
+    flex: 1; 
+    min-height: 100vh; 
+    justify-content: end; 
+    align-items: center;
+    
+}
+
+.columnSide { 
+    padding: 50px; 
+    flex-direction: column; 
+    align-items: center;
+    row-gap: 20px;
+    /*position: absolute;*/
+}
+
+.buttonBody{
+    background: black;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    align-items: stretch;
+}
+
+span{
+    align-items: baseline;
+}
